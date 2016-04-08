@@ -1,0 +1,40 @@
+<body>
+    <main class="ui container grid">
+        <div class="row">
+            <div class="eight wide column">
+                <header>
+                    <h1 class="ui inverted header">CIOS – Lista Corporativa</h1>
+                </header>
+
+                <div class="ui segment">
+                    <table class="ui basic table">
+                        <thead>
+                            <th>Nome</th>
+                            <th>Cargo</th>
+                            <th>Empresa</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            {{#each contacts}}
+                                {{> contact}}
+                            {{/each}}
+                        </tbody>
+                    </table>
+
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<template name="contact">
+    <tr>
+        <td>{{name}}</td>
+        <td>{{job}}</td>
+        <td>{{company}}</td>
+        <td class="center aligned">
+            <i class="large green checkmark icon"></i>
+        </td>
+    </tr>
+</template>
