@@ -16,20 +16,20 @@ Template.body.helpers( {
     }
 } );
 
-// if ( Contacts.find().count() === 0 ) {
-//     Contacts.insert( {
-//         name: 'Pierre Nanterme',
-//         job: 'Chairman and CEO',
-//         company: 'Accenture'
-//     } );
-//     Contacts.insert( {
-//         name: 'Kumar Birla',
-//         job: 'Chairman',
-//         company: 'Aditya Birla Group'
-//     } );
-//     Contacts.insert( {
-//         name: 'Evan G. Greenberg',
-//         job: 'CEO',
-//         company: 'ACE Limited'
-//     } );
-// }
+if ( Contacts.find().count() === 0 ) {
+    Contacts.insert( {
+        name: 'Pierre Nanterme',
+        job: 'Chairman and CEO',
+        company: 'Accenture'
+    } );
+    Contacts.insert( {
+        name: 'Kumar Birla',
+        job: 'Chairman',
+        company: 'Aditya Birla Group'
+    } );
+    Contacts.insert( {
+        name: 'Evan G. Greenberg',
+        job: 'CEO',
+        company: 'ACE Limited'
+    } );
+}
