@@ -17,3 +17,10 @@ main {
     -o-flex     : 1;
     flex        : 1;
 }
+
+tr:hover {
+    cursor    : pointer;
+    background: rgba(0,0,0,.05)!important;
+    color     : rgba(0,0,0,.95)!important;
+    transition: all .5s ease;
+}
