@@ -24,3 +24,7 @@ tr:hover {
     color     : rgba(0,0,0,.95)!important;
     transition: all .5s ease;
 }
+
+.login-link-text {
+    color: #fff !important;
+}
